@@ -1,0 +1,96 @@
+.flower {
+    height: 200px;
+    width: 200px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.mid {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #000, #ff5e00, #000);
+    background-size: 5px 5px;
+    z-index: 4;
+    filter: drop-shadow(0 0 5px #e05200);
+}
+
+.petal1 {
+    position: absolute;
+    left: 40px;
+    z-index: 3;
+    width: 120px;
+    height: 30px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #ff5e00, #ffbb00);
+    filter: drop-shadow(0 0 5px #e05200);
+}
+
+.petal1.p1 {
+    transform: rotate(22.5deg);
+}
+
+.petal1.p2 {
+    transform: rotate(67.5deg);
+}
+
+.petal1.p3 {
+    transform: rotate(110.5deg);
+}
+
+.petal1.p4 {
+    transform: rotate(157.5deg);
+}
+
+.petal2 {
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    width: 200px;
+    height: 40px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #ff5e00, #fbd702);
+    filter: drop-shadow(0 0 5px #e05200);
+}
+
+.petal2.p2 {
+    transform: rotate(90deg);
+}
+
+.petal2.p3 {
+    transform: rotate(45deg);
+}
+
+.petal2.p4 {
+    transform: rotate(135deg);
+}
+
+.petal3 {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 200px;
+    height: 40px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #ff5e00, #fbd702);
+    filter: drop-shadow(0 0 5px #e05200);
+}
+
+.petal3.p1 {
+    transform: rotate(22.5deg);
+}
+
+.petal3.p2 {
+    transform: rotate(67.5deg);
+}
+
+.petal3.p3 {
+    transform: rotate(110.5deg);
+}
+
+.petal3.p4 {
+    transform: rotate(157.5deg);
+}
